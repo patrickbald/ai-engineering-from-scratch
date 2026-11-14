@@ -1,0 +1,20 @@
+Machine learning:
+  - you provide data and expected outputs, the algorithm discovers the patterns and rules
+  - the "model" that comes out of training IS the rules embedded as numbers (weights, params)
+
+Types of machine learning:
+  - Supervised learning: you provide labeled data (input-output pairs) and the algorithm learns to map inputs to outputs 
+  - unsupervised learning: you have inputs only, no labels. the model finds the structure on its own
+  - reinforcement learning: an agent takes action in an environment and receives rewards or penalties
+
+The ML workflow:
+  - collect data: gather raw data
+  - clean and explore: handle missing values, remove duplicates, visualize distributions, identify anomalies
+  - feature engineering: transform the cleaned data into features the model can use. eg turn dates into day-of-week
+  - split data: divid into testing, training, validation ~ 70, 15, 15 split
+  - train model: feed training data into an algorithm. algorithm adjusts intern params to minimize a loss function (gradient descent)
+  - evaluate: measure performance on validation/test data
+  - deploy: put the model into production where it makes new predictions on new data
+  - monitor: track performance over time
+
+  
